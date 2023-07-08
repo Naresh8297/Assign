@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="homepage.css">
+  <title>Recruitment Solution App</title>
+  
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="hero">
+    <div class="container">
+      <h1>Streamline Your Hiring Process</h1>
+      <p>Find the perfect candidates faster and more efficiently with our online recruitment solution.</p>
+      <a href="#" class="cta-button" onclick="toggleSection('discover-more')">Discover More</a>
+    </div>
+  </section>
+
+
+  <section id="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="feature">
+        <img src="feature-1.png" alt="Feature 1">
+        <h3>Automated Screening</h3>
+        <p>Efficiently filter candidates based on predefined criteria.</p>
+      </div>
+      <div class="feature">
+        <img src="feature-2.png" alt="Feature 2">
+        <h3>Applicant Tracking</h3>
+        <p>Track and manage candidate applications throughout the hiring process.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="benefits">
+    <div class="container">
+      <h2>Benefits</h2>
+      <div class="benefit">
+        <img src="benefit-1.png" alt="Benefit 1">
+        <h3>Time Saving</h3>
+        <p>Reduce the time spent on manual candidate screening and selection.</p>
+      </div>
+      <div class="benefit">
+        <img src="benefit-2.png" alt="Benefit 2">
+        <h3>Improved Efficiency</h3>
+        <p>Streamline your hiring process and increase productivity.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <img src="client-1.png" alt="Client 1">
+        <p>"The Recruitment Solution App helped us streamline our hiring process. Highly recommended!"</p>
+        <cite>John Doe, HR Manager</cite>
+      </div>
+      <div class="testimonial">
+        <img src="client-2.png" alt="Client 2">
+        <p>"With the Recruitment Solution App, finding qualified candidates has become effortless. Great job!"</p>
+        <cite>Jane Smith, Hiring Manager</cite>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or need assistance? Get in touch with our support team.</p>
+      <a href="#" class="cta-button" onclick="toggleSection('contact-details')">Contact Now</a>
+    </div>
+  </section>
+
+
+  <section id="discover-more" style="display: none;">
+    <div class="container">
+      <h2>Discover More</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum est vel urna auctor, at luctus erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Ut venenatis odio ut ex lacinia bibendum. Praesent posuere sapien nec malesuada consequat. In hac habitasse platea dictumst. Nunc eget pharetra dui, ac tempus tellus.</p>
+    </div>
+  </section>
+
+
+  <section id="contact-details" style="display: none;">
+    <div class="container">
+      <h2>Contact Details</h2>
+      <p>Email: info@recruitmentsolutionapp.com</p>
+      <p>Phone: +1 123 456 7890</p>
+      <p>Address: 123 ABC Street, City, Country</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2023 Recruitment Solution App. All rights reserved.</p>
+      <nav>
+      </nav>
+    </div>
+    <div class="footer-social">
+        <div class="footer-social">
+            <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer" class="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/yourpage" target="_blank" rel="noopener noreferrer" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourpage" target="_blank" rel="noopener noreferrer" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/yourpage" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="fab fa-linkedin"></i></a>
+          </div>
+          
+    </div>
+  </footer>
+
+  <script>
+    function toggleSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      section.style.display = (section.style.display === "none") ? "block" : "none";
+    }
+  </script>
+</body>
+</html>
+
+
